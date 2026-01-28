@@ -37,10 +37,10 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            <Button variant="hero" size="xl">
+            <Button variant="hero" size="xl" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
               Book a Site Visit
             </Button>
-            <Button variant="heroOutline" size="xl">
+            <Button variant="heroOutline" size="xl" onClick={() => document.getElementById('floorplans')?.scrollIntoView({ behavior: 'smooth' })}>
               View Floor Plans
             </Button>
           </div>
