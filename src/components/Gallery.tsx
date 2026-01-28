@@ -1,21 +1,42 @@
 import { useState } from "react";
-import { X } from "lucide-react";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import propertyPool from "@/assets/property-pool.jpg";
 import propertyFront from "@/assets/property-front.jpg";
 import propertySide from "@/assets/property-side.jpg";
 import propertyBack from "@/assets/property-back.jpg";
 import sitePhoto from "@/assets/site-photo.jpg";
+import siteGreenery from "@/assets/site-greenery.jpg";
+import siteConstruction from "@/assets/site-construction.jpg";
+import propertyRow from "@/assets/property-row.png";
+import propertySingle from "@/assets/property-single.png";
+import propertyGate from "@/assets/property-gate.png";
+import aerialView from "@/assets/aerial-view.png";
 
 const images = [
   { src: propertyPool, alt: "Property with pool view", label: "Pool View" },
   { src: propertyFront, alt: "Front facade", label: "Front Facade" },
   { src: propertySide, alt: "Side view", label: "Side View" },
   { src: propertyBack, alt: "Back facade", label: "Back Facade" },
+  { src: propertyRow, alt: "Row of townhouses", label: "Townhouse Row" },
+  { src: propertySingle, alt: "Single unit view", label: "Single Unit" },
+  { src: propertyGate, alt: "Property entrance gate", label: "Entrance Gate" },
+  { src: aerialView, alt: "Aerial view of development", label: "Aerial View" },
   { src: sitePhoto, alt: "Development site", label: "Project Site" },
+  { src: siteConstruction, alt: "Construction progress", label: "Construction" },
+  { src: siteGreenery, alt: "Site greenery", label: "Site Greenery" },
 ];
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
+
+  const navigateImage = (direction: "prev" | "next") => {
+    if (selectedImage === null) return;
+    if (direction === "prev") {
+      setSelectedImage(selectedImage === 0 ? images.length - 1 : selectedImage - 1);
+    } else {
+      setSelectedImage(selectedImage === images.length - 1 ? 0 : selectedImage + 1);
+    }
+  };
 
   return (
     <section id="gallery" className="py-20 bg-background">
@@ -67,12 +88,39 @@ const Gallery = () => {
             >
               <X className="w-8 h-8" />
             </button>
+            
+            {/* Navigation buttons */}
+            <button
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-primary-foreground hover:text-ocean transition-colors p-2"
+              onClick={(e) => {
+                e.stopPropagation();
+                navigateImage("prev");
+              }}
+            >
+              <ChevronLeft className="w-10 h-10" />
+            </button>
+            
+            <button
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-primary-foreground hover:text-ocean transition-colors p-2"
+              onClick={(e) => {
+                e.stopPropagation();
+                navigateImage("next");
+              }}
+            >
+              <ChevronRight className="w-10 h-10" />
+            </button>
+
             <img
               src={images[selectedImage].src}
               alt={images[selectedImage].alt}
               className="max-w-full max-h-[90vh] object-contain rounded-lg"
               onClick={(e) => e.stopPropagation()}
             />
+            
+            {/* Image counter */}
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-primary-foreground/80 text-sm">
+              {selectedImage + 1} / {images.length}
+            </div>
           </div>
         )}
       </div>

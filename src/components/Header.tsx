@@ -50,7 +50,7 @@ const Header = () => {
             <a href="#contact" className="text-foreground hover:text-primary transition-colors font-medium">
               Contact
             </a>
-            <Button variant="cta" size="lg">
+            <Button variant="cta" size="lg" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
               Book Site Visit
             </Button>
           </div>
@@ -93,7 +93,7 @@ const Header = () => {
                   admin@kiluahomes.co.ke
                 </a>
               </div>
-              <Button variant="cta" className="mt-4">
+              <Button variant="cta" className="mt-4" onClick={() => { setIsMenuOpen(false); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }}>
                 Book Site Visit
               </Button>
             </div>
