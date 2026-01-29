@@ -62,10 +62,18 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-foreground mb-1">Location</div>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground mb-2">
                     Vipingo, Near Vipingo Ridge & Pazuri<br />
                     Kilifi County, Kenya
                   </p>
+                  <a 
+                    href="https://maps.app.goo.gl/mLjQuVruMa4m3hsHA" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-ocean hover:text-ocean-light transition-colors text-sm font-medium"
+                  >
+                    View on Google Maps →
+                  </a>
                 </div>
               </div>
 
