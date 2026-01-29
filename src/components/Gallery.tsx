@@ -11,6 +11,13 @@ import propertyRow from "@/assets/property-row.png";
 import propertySingle from "@/assets/property-single.png";
 import propertyGate from "@/assets/property-gate.png";
 import aerialView from "@/assets/aerial-view.png";
+import siteView1 from "@/assets/site-view-1.jpg";
+import siteView2 from "@/assets/site-view-2.jpg";
+import siteView3 from "@/assets/site-view-3.jpg";
+import siteView4 from "@/assets/site-view-4.jpg";
+import siteView5 from "@/assets/site-view-5.jpg";
+import locationMap1 from "@/assets/location-map-1.png";
+import locationMap2 from "@/assets/location-map-2.png";
 
 const images = [
   { src: propertyPool, alt: "Property with pool view", label: "Pool View" },
@@ -24,6 +31,13 @@ const images = [
   { src: sitePhoto, alt: "Development site", label: "Project Site" },
   { src: siteConstruction, alt: "Construction progress", label: "Construction" },
   { src: siteGreenery, alt: "Site greenery", label: "Site Greenery" },
+  { src: siteView1, alt: "Construction site view", label: "Site View" },
+  { src: siteView2, alt: "Site progress", label: "Site Progress" },
+  { src: siteView3, alt: "Land preparation", label: "Land Preparation" },
+  { src: siteView4, alt: "Site clearing", label: "Site Clearing" },
+  { src: siteView5, alt: "Building foundation", label: "Foundation" },
+  { src: locationMap1, alt: "Location near Mombasa Highway", label: "Location Map" },
+  { src: locationMap2, alt: "Highway access", label: "Highway Access" },
 ];
 
 const Gallery = () => {

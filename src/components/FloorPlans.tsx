@@ -1,6 +1,6 @@
 import { useState } from "react";
-import floorplanGround from "@/assets/floorplan-ground.jpg";
-import floorplanFirst from "@/assets/floorplan-first.jpg";
+import floorplanGround from "@/assets/floorplan-ground.png";
+import floorplanFirst from "@/assets/floorplan-first.png";
 
 const floors = [
   {

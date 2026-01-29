@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const benefits = [
   { icon: Clock, text: "30% Downpayment to Start" },
-  { icon: TrendingUp, text: "Balance in 15 Monthly Installments" },
+  { icon: TrendingUp, text: "Balance in 18 Monthly Installments" },
   { icon: Shield, text: "Transparent Progress Updates" },
   { icon: Check, text: "Freehold Title Deed Included" },
 ];

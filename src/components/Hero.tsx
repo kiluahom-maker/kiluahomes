@@ -53,7 +53,7 @@ const Hero = () => {
                 KSH 7.9M
               </div>
               <div className="text-sm text-ocean font-medium mt-1">
-                30% Downpayment • Balance in 15 Months
+                30% Downpayment • Balance in 18 Months
               </div>
             </div>
           </div>
