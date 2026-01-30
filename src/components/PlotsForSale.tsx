@@ -10,7 +10,7 @@ const plots = [
   },
   {
     size: "50 x 100",
-    area: "2,500 sq.ft",
+    area: "5,000 sq.ft",
     price: "KSH 4M",
     features: ["Freehold Title Deed", "Ready for Development", "Gated Community Access"],
   },
