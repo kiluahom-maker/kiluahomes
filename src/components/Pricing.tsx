@@ -54,7 +54,12 @@ const Pricing = () => {
               ))}
             </div>
 
-            <Button variant="cta" size="xl" className="w-full">
+            <Button 
+              variant="cta" 
+              size="xl" 
+              className="w-full"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Reserve Your Unit Now
             </Button>
           </div>
