@@ -17,7 +17,7 @@ const plots = [
   {
     size: "40 x 80",
     area: "3,200 sq.ft",
-    price: "KSH 2.5M",
+    price: "KSH 3M",
     features: ["Freehold Title Deed", "Up to 18 Months Payment Plan", "Gated Community Access"],
   },
 ];
@@ -27,14 +27,11 @@ const keyDevelopments = [
   "Sultan Palace Beach",
   "Vipingo Market & Beyond",
   "Ocean Breeze Court",
-  "Tarmac Road linking Marijani through Vipingo Beach boundary to Ronald Ngala Utalii University",
-  "Tarmac road links Marijani entry to the Mombasa Malindi Highway",
 ];
 
 const upcomingDevelopments = [
   "Centum Developments",
   "Free Economic Zone",
-  "Marijani Club House with Gym & Spa Facilities",
   "Vipingo City",
   "Phase II Lamu-Malindi-Isiolo SGR",
   "Ronald Ngala Utalii College",
@@ -206,15 +203,13 @@ const PlotsForSale = () => {
               Vipingo Special Economic Zone (VSEZ)
             </h3>
           </div>
-          <p className="text-muted-foreground text-center mb-6">
+          <p className="text-muted-foreground text-center">
             A 2,000-acre, "plug-and-play" industrial park in Kilifi County, Kenya, designed as a sustainable hub 
             for manufacturing, agro-processing, and logistics. Developed by Centum Investment and Arise IIP, 
             it aims to attract <strong>Sh390 billion ($3 billion)</strong> in investments, create <strong>35,000+ jobs</strong>, 
-            and leverage proximity to the Port of Mombasa.
-          </p>
-          <p className="text-muted-foreground text-center">
-            The zone features industrial parks, extensive residential options, modern infrastructure including 
-            a desalination plant and power facilities, plus lifestyle amenities like schools, medical centers, and a golf course.
+            and leverage proximity to the Port of Mombasa. The zone features industrial parks, extensive residential options, 
+            modern infrastructure including a desalination plant and power facilities, plus lifestyle amenities like schools, 
+            medical centers, and a golf course.
           </p>
         </div>
 
@@ -227,9 +222,8 @@ const PlotsForSale = () => {
             </h3>
           </div>
           <p className="text-muted-foreground text-center">
-            Vipingo Ridge features the PGA Baobab Course, which is a <strong>PGA-accredited championship golf course</strong>. 
-            It is recognized as the <strong>only PGA-accredited golf course in Africa</strong> and serves as a host venue 
-            for the European Tour's Magical Kenya Ladies Open.
+            Home to the <strong>PGA Baobab Course</strong>, the <strong>only PGA-accredited championship golf course in Africa</strong>. 
+            This world-class facility hosts the European Tour's Magical Kenya Ladies Open, putting Vipingo on the global golfing map.
           </p>
         </div>
       </div>
