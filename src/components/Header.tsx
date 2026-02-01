@@ -33,9 +33,6 @@ const Header = () => {
             <a href="#property" className="text-foreground hover:text-primary transition-colors font-medium">
               Property
             </a>
-            <a href="#plots" className="text-foreground hover:text-primary transition-colors font-medium">
-              Plots
-            </a>
             <a href="#features" className="text-foreground hover:text-primary transition-colors font-medium">
               Features
             </a>
@@ -68,9 +65,6 @@ const Header = () => {
             <div className="flex flex-col gap-4">
               <a href="#property" className="text-foreground hover:text-primary transition-colors font-medium py-2">
                 Property
-              </a>
-              <a href="#plots" className="text-foreground hover:text-primary transition-colors font-medium py-2">
-                Plots
               </a>
               <a href="#features" className="text-foreground hover:text-primary transition-colors font-medium py-2">
                 Features

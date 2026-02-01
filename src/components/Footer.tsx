@@ -25,11 +25,6 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#plots" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  Plots for Sale
-                </a>
-              </li>
-              <li>
                 <a href="#features" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   Features
                 </a>

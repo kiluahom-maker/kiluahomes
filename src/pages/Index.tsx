@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import PropertyOverview from "@/components/PropertyOverview";
-import PlotsForSale from "@/components/PlotsForSale";
 import Features from "@/components/Features";
 import Gallery from "@/components/Gallery";
 import FloorPlans from "@/components/FloorPlans";
@@ -15,7 +14,6 @@ const Index = () => {
       <Header />
       <Hero />
       <PropertyOverview />
-      <PlotsForSale />
       <Features />
       <Gallery />
       <FloorPlans />
