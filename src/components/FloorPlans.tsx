@@ -19,7 +19,7 @@ const floors = [
 
 const FloorPlans = () => {
   const [activeFloor, setActiveFloor] = useState("ground");
-  const currentFloor = floors.find((f) => f.id === activeFloor)!;
+  const currentFloor = floors.find((f) => f.id === activeFloor) || floors[0];
 
   return (
     <section id="floorplans" className="py-20 bg-muted">
