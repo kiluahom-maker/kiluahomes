@@ -1,7 +1,6 @@
 import { useState } from "react";
 import floorplanGround from "@/assets/floorplan-ground.png";
 import floorplanFirst from "@/assets/floorplan-first.png";
-import masterPlanPlots from "@/assets/master-plan-plots.png";
 
 const floors = [
   {
@@ -15,12 +14,6 @@ const floors = [
     label: "First Floor",
     image: floorplanFirst,
     features: ["Master Bedroom with En-suite", "Second Bedroom with En-suite", "Open Terrace", "Balcony"],
-  },
-  {
-    id: "masterplan",
-    label: "Master Plan",
-    image: masterPlanPlots,
-    features: ["50x100 Plots Available", "100x100 Plots Available", "Community Area & Shop", "Paved Access Roads", "Landscaped Greenery"],
   },
 ];
 
