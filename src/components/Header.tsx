@@ -24,7 +24,7 @@ const Header = () => {
         <nav className="flex items-center justify-between py-4">
           <a href="#" className="flex items-center gap-2">
             <span className="text-2xl font-display font-bold text-primary tracking-tight">
-              Kilua Homes
+              Vipingo Properties
             </span>
           </a>
 
