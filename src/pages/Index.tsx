@@ -1,10 +1,12 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import PropertyOverview from "@/components/PropertyOverview";
+import PropertyTypes from "@/components/PropertyTypes";
 import Features from "@/components/Features";
 import Gallery from "@/components/Gallery";
 import FloorPlans from "@/components/FloorPlans";
 import MasterPlan from "@/components/MasterPlan";
+import CommunityArea from "@/components/CommunityArea";
 import Pricing from "@/components/Pricing";
 import PazuriLand from "@/components/PazuriLand";
 import Contact from "@/components/Contact";
@@ -17,7 +19,8 @@ const tabs = [
 ];
 
 const Index = () => {
-  const [activeTab, setActiveTab] = useState("kilua-house");
+  const [activeTab, setActiveTab] = useState<"kilua-house" | "10-acre">("kilua-house");
+  const [activeType, setActiveType] = useState<"type-a" | "type-b">("type-a");
 
   return (
     <div className="min-h-screen">
@@ -31,7 +34,7 @@ const Index = () => {
             {tabs.map((tab) => (
               <button
                 key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
+                onClick={() => setActiveTab(tab.id as typeof activeTab)}
                 className={`px-6 py-3 rounded-full font-medium transition-all whitespace-nowrap ${
                   activeTab === tab.id
                     ? "bg-primary text-primary-foreground shadow-medium"
@@ -48,10 +51,12 @@ const Index = () => {
       {activeTab === "kilua-house" && (
         <>
           <PropertyOverview />
+          <PropertyTypes activeType={activeType} onChange={setActiveType} />
           <Features />
           <Gallery />
           <FloorPlans />
           <MasterPlan />
+          <CommunityArea />
           <Pricing />
         </>
       )}

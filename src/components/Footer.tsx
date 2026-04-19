@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="mb-4">
-              <span className="text-2xl font-display font-bold">Vipingo Properties</span>
+              <span className="text-2xl font-display font-bold">Sunway Ventures LTD</span>
             </div>
             <p className="text-primary-foreground/80 max-w-md mb-6">
               Your trusted partner for premium homes in Vipingo. Freehold titles, flexible payment plans, and coastal living.
@@ -73,7 +73,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-primary-foreground/20 text-center text-primary-foreground/60 text-sm">
-          <p>© {new Date().getFullYear()} Vipingo Properties. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Sunway Ventures LTD. All rights reserved.</p>
         </div>
       </div>
     </footer>
