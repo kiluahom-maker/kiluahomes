@@ -22,9 +22,9 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-primary-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Vipingo
+            Sunway
             <br />
-            <span className="text-ocean-light">Properties</span>
+            <span className="text-ocean-light">Ventures LTD</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-4 animate-fade-up max-w-xl" style={{ animationDelay: "0.2s" }}>
