@@ -20,9 +20,9 @@ const Pricing = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm text-primary-foreground px-4 py-2 rounded-full mb-6">
-            <span className="w-2 h-2 bg-ocean rounded-full animate-pulse" />
-            <span className="text-sm font-medium">Limited Off-Plan Pricing — Only 4 Units</span>
+          <div className="inline-flex items-center gap-2 bg-gold/20 backdrop-blur-sm text-primary-foreground px-4 py-2 rounded-full mb-6 border border-gold/30">
+            <span className="w-2 h-2 bg-gold rounded-full animate-pulse" />
+            <span className="text-sm font-medium">Limited villas available — secure yours today</span>
           </div>
 
           <h2 className="text-3xl md:text-5xl font-display font-bold text-primary-foreground mb-6">
