@@ -8,11 +8,18 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="mb-4">
-              <span className="text-2xl font-display font-bold">Sunway Ventures LTD</span>
+              <span className="text-2xl font-display font-bold">Kilua Homes</span>
+              <span className="block text-xs text-primary-foreground/70 tracking-widest uppercase mt-1">
+                by Sunway Ventures LTD
+              </span>
             </div>
-            <p className="text-primary-foreground/80 max-w-md mb-6">
-              Your trusted partner for premium homes in Vipingo. Freehold titles, flexible payment plans, and coastal living.
+            <p className="text-primary-foreground/80 max-w-md mb-4">
+              Trusted coastal property developer in Vipingo. Premium freehold villas, gated community living, and flexible payment plans.
             </p>
+            <div className="inline-flex items-center gap-2 bg-primary-foreground/10 px-3 py-1.5 rounded-full text-xs">
+              <span className="w-1.5 h-1.5 bg-gold rounded-full" />
+              Trusted coastal property developer
+            </div>
           </div>
 
           {/* Quick Links */}

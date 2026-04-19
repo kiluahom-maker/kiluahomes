@@ -23,8 +23,11 @@ const Header = () => {
         {/* Main nav */}
         <nav className="flex items-center justify-between py-4">
           <a href="#" className="flex items-center gap-2">
-            <span className="text-2xl font-display font-bold text-primary tracking-tight">
-              Sunway Ventures LTD
+            <span className="text-xl md:text-2xl font-display font-bold text-primary tracking-tight leading-tight">
+              Kilua Homes
+              <span className="block text-[10px] md:text-xs font-sans font-medium text-muted-foreground tracking-widest uppercase">
+                by Sunway Ventures LTD
+              </span>
             </span>
           </a>
 
