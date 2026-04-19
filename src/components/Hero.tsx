@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 bg-accent/20 backdrop-blur-sm text-primary-foreground px-4 py-2 rounded-full mb-6 animate-fade-up">
             <span className="w-2 h-2 bg-ocean rounded-full animate-pulse" />
-            <span className="text-sm font-medium">Homes, Plots & Land in Vipingo</span>
+            <span className="text-sm font-medium">Premium Homes in Vipingo</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-primary-foreground mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
@@ -28,7 +28,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-4 animate-fade-up max-w-xl" style={{ animationDelay: "0.2s" }}>
-            Discover premium homes, residential plots, and investment land in Vipingo, Kilifi County. Freehold titles and flexible payment plans.
+            Discover premium homes and investment land in Vipingo, Kilifi County. Freehold titles and flexible payment plans.
           </p>
 
           <div className="flex items-center gap-2 text-primary-foreground/80 mb-8 animate-fade-up" style={{ animationDelay: "0.25s" }}>
@@ -51,11 +51,6 @@ const Hero = () => {
               <div className="text-sm text-muted-foreground mb-1">Kilua House</div>
               <div className="text-2xl font-display font-bold text-primary">KSH 7.9M</div>
               <div className="text-xs text-ocean font-medium mt-1">3-Bed Home • Off-Plan</div>
-            </div>
-            <div className="bg-card/95 backdrop-blur-sm rounded-2xl p-5 shadow-strong">
-              <div className="text-sm text-muted-foreground mb-1">Plots from</div>
-              <div className="text-2xl font-display font-bold text-primary">KSH 2.8M</div>
-              <div className="text-xs text-ocean font-medium mt-1">50×100 • Freehold Title</div>
             </div>
           </div>
         </div>

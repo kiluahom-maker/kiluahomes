@@ -11,7 +11,7 @@ const Footer = () => {
               <span className="text-2xl font-display font-bold">Vipingo Properties</span>
             </div>
             <p className="text-primary-foreground/80 max-w-md mb-6">
-              Your trusted partner for homes, plots, and land in Vipingo. Freehold titles, flexible payment plans, and premium coastal living.
+              Your trusted partner for premium homes in Vipingo. Freehold titles, flexible payment plans, and coastal living.
             </p>
           </div>
 
