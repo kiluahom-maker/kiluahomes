@@ -1,19 +1,18 @@
-import { useState } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import PropertyOverview from "@/components/PropertyOverview";
 import Features from "@/components/Features";
 import Gallery from "@/components/Gallery";
 import FloorPlans from "@/components/FloorPlans";
+import MasterPlan from "@/components/MasterPlan";
 import Pricing from "@/components/Pricing";
-import PlotsForSale from "@/components/PlotsForSale";
 import PazuriLand from "@/components/PazuriLand";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import { useState } from "react";
 
 const tabs = [
   { id: "kilua-house", label: "Kilua House" },
-  { id: "plots", label: "Plots for Sale" },
   { id: "10-acre", label: "10-Acre Land" },
 ];
 
@@ -46,18 +45,16 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Tab content */}
       {activeTab === "kilua-house" && (
         <>
           <PropertyOverview />
           <Features />
           <Gallery />
           <FloorPlans />
+          <MasterPlan />
           <Pricing />
         </>
       )}
-
-      {activeTab === "plots" && <PlotsForSale />}
 
       {activeTab === "10-acre" && <PazuriLand />}
 
