@@ -11,6 +11,11 @@ import vipingoBeachMap from "@/assets/vipingo-beach-map.png";
 import mainHighwayMap from "@/assets/main-highway-map.png";
 import siteConstructionView from "@/assets/site-construction-view.jpg";
 import siteGreeneryView from "@/assets/site-greenery-view.jpg";
+import siteInteriorProgress from "@/assets/site-interior-progress.jpeg";
+import sitePerimeterWall from "@/assets/site-perimeter-wall.jpeg";
+import siteFoundation1 from "@/assets/site-foundation-1.jpeg";
+import siteFoundation2 from "@/assets/site-foundation-2.jpeg";
+import sitePoolConstruction from "@/assets/site-pool-construction.jpeg";
 
 const images = [
   { src: propertyPool, alt: "Property with pool view", label: "Pool View" },
@@ -24,6 +29,11 @@ const images = [
   { src: mainHighwayMap, alt: "Location near main highway", label: "Highway Access" },
   { src: siteConstructionView, alt: "Site construction progress", label: "Construction Progress" },
   { src: siteGreeneryView, alt: "Lush site greenery", label: "Natural Surroundings" },
+  { src: siteInteriorProgress, alt: "Interior plastering progress", label: "Interior Progress" },
+  { src: sitePerimeterWall, alt: "Perimeter wall construction", label: "Perimeter Wall" },
+  { src: siteFoundation1, alt: "Foundation works", label: "Foundation Works" },
+  { src: siteFoundation2, alt: "Foundation excavation overview", label: "Foundation Overview" },
+  { src: sitePoolConstruction, alt: "Plunge pool under construction", label: "Pool Construction" },
 ];
 
 const Gallery = () => {
