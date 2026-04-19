@@ -26,8 +26,13 @@ const PropertyOverview = () => {
 
           {/* Content */}
           <div className="lg:pl-8">
-            <div className="inline-block bg-secondary text-secondary-foreground px-4 py-2 rounded-full text-sm font-medium mb-4">
-              Vipingo, Kilifi County
+            <div className="flex flex-wrap gap-2 mb-4">
+              <div className="inline-block bg-secondary text-secondary-foreground px-4 py-2 rounded-full text-sm font-medium">
+                Vipingo, Kilifi County
+              </div>
+              <div className="inline-block bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium">
+                Villa Type B on display
+              </div>
             </div>
 
             <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
