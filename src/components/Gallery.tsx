@@ -16,6 +16,7 @@ import sitePerimeterWall from "@/assets/site-perimeter-wall.jpeg";
 import siteFoundation1 from "@/assets/site-foundation-1.jpeg";
 import siteFoundation2 from "@/assets/site-foundation-2.jpeg";
 import sitePoolConstruction from "@/assets/site-pool-construction.jpeg";
+import constructionFoundation from "@/assets/construction-foundation.jpg";
 
 const images = [
   { src: propertyPool, alt: "Property with pool view", label: "Pool View" },
@@ -34,6 +35,7 @@ const images = [
   { src: siteFoundation1, alt: "Foundation works", label: "Foundation Works" },
   { src: siteFoundation2, alt: "Foundation excavation overview", label: "Foundation Overview" },
   { src: sitePoolConstruction, alt: "Plunge pool under construction", label: "Pool Construction" },
+  { src: constructionFoundation, alt: "Foundation reinforcement with coastal palms", label: "Foundation Reinforcement" },
 ];
 
 const Gallery = () => {
