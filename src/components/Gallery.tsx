@@ -21,8 +21,16 @@ import aerialConstructionView from "@/assets/aerial-construction-view.jpg";
 import aerialLandscapeView from "@/assets/aerial-landscape-view.jpg";
 import videoFrame1 from "@/assets/video-frame-1.jpg";
 import videoFrame2 from "@/assets/video-frame-2.jpg";
+import siteTrenchRebar from "@/assets/site-trench-rebar.jpg";
+import sitePerimeterCorner from "@/assets/site-perimeter-corner.jpg";
+import siteWallLandscaping from "@/assets/site-wall-landscaping.jpg";
+import siteCoconutGrove from "@/assets/site-coconut-grove.jpg";
 
 const images = [
+  { src: siteTrenchRebar, alt: "Foundation trench with rebar reinforcement", label: "Foundation Trench & Rebar" },
+  { src: sitePerimeterCorner, alt: "Completed perimeter wall corner", label: "Perimeter Wall Corner" },
+  { src: siteWallLandscaping, alt: "Perimeter wall with new landscaping", label: "Wall Landscaping" },
+  { src: siteCoconutGrove, alt: "Lush coconut grove on the property", label: "Coconut Grove" },
   { src: aerialLandscapeView, alt: "Aerial view of Kilua Homes site and surrounding landscape", label: "Aerial Site Overview" },
   { src: aerialConstructionView, alt: "Aerial view of villas under construction", label: "Aerial Construction View" },
   { src: videoFrame1, alt: "Site walkthrough still", label: "Site Walkthrough" },
