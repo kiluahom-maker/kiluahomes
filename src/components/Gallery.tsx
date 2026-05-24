@@ -84,7 +84,7 @@ const Gallery = () => {
               <img
                 src={image.src}
                 alt={image.alt}
-                className={`w-full object-cover transition-transform duration-500 group-hover:scale-110 ${
+                className={`w-full object-contain bg-muted transition-transform duration-500 group-hover:scale-105 ${
                   index === 0 ? "h-full min-h-[400px]" : "h-64"
                 }`}
               />
