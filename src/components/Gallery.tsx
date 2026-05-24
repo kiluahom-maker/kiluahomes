@@ -70,31 +70,31 @@ const Gallery = () => {
             Explore our modern architectural design with clean lines, natural light, and premium finishes.
           </p>
         </div>
+      </div>
 
-        {/* Gallery grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {images.map((image, index) => (
-            <div
-              key={index}
-              className={`relative overflow-hidden rounded-xl cursor-pointer group ${
-                index === 0 ? "md:col-span-2 md:row-span-2" : ""
-              }`}
-              onClick={() => setSelectedImage(index)}
-            >
-              <img
-                src={image.src}
-                alt={image.alt}
-                className={`w-full object-contain bg-muted transition-transform duration-500 group-hover:scale-105 ${
-                  index === 0 ? "h-full min-h-[400px]" : "h-64"
-                }`}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-              <div className="absolute bottom-4 left-4 text-primary-foreground font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                {image.label}
-              </div>
+      {/* Gallery grid — edge to edge, no gaps */}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0">
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className="relative overflow-hidden cursor-pointer group transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-[1.03] hover:z-10 hover:shadow-strong"
+            onClick={() => setSelectedImage(index)}
+          >
+            <img
+              src={image.src}
+              alt={image.alt}
+              className="w-full h-64 object-cover block"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+            <div className="absolute bottom-4 left-4 text-primary-foreground font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+              {image.label}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="container mx-auto px-4">
+
 
         {/* Lightbox */}
         {selectedImage !== null && (
