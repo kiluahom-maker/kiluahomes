@@ -17,8 +17,16 @@ import siteFoundation1 from "@/assets/site-foundation-1.jpeg";
 import siteFoundation2 from "@/assets/site-foundation-2.jpeg";
 import sitePoolConstruction from "@/assets/site-pool-construction.jpeg";
 import constructionFoundation from "@/assets/construction-foundation.jpg";
+import aerialConstructionView from "@/assets/aerial-construction-view.jpg";
+import aerialLandscapeView from "@/assets/aerial-landscape-view.jpg";
+import videoFrame1 from "@/assets/video-frame-1.jpg";
+import videoFrame2 from "@/assets/video-frame-2.jpg";
 
 const images = [
+  { src: aerialLandscapeView, alt: "Aerial view of Kilua Homes site and surrounding landscape", label: "Aerial Site Overview" },
+  { src: aerialConstructionView, alt: "Aerial view of villas under construction", label: "Aerial Construction View" },
+  { src: videoFrame1, alt: "Site walkthrough still", label: "Site Walkthrough" },
+  { src: videoFrame2, alt: "Construction progress walkthrough still", label: "Construction Walkthrough" },
   { src: propertyPool, alt: "Property with pool view", label: "Pool View" },
   { src: propertyFront, alt: "Front facade", label: "Front Facade" },
   { src: propertySide, alt: "Side view", label: "Side View" },
