@@ -29,8 +29,10 @@ import sitePalmGroveClearing from "@/assets/site-palm-grove-clearing.jpg";
 import siteFoundationSlab1 from "@/assets/site-foundation-slab-1.jpg";
 import siteClearedPlot from "@/assets/site-cleared-plot.jpg";
 import siteFoundationSlab2 from "@/assets/site-foundation-slab-2.jpg";
+import kiluaEntranceSign from "@/assets/kilua-entrance-sign.jpg";
 
 const images = [
+  { src: kiluaEntranceSign, alt: "Kilua Homes entrance signage and landscaped front", label: "Kilua Homes Entrance" },
   { src: siteFoundationSlab1, alt: "Villa foundation slab with rebar ready for next phase", label: "Foundation Slab Ready" },
   { src: siteFoundationSlab2, alt: "Wider view of villa foundation slab with neighbouring villas", label: "Foundation Overview" },
   { src: sitePalmGroveClearing, alt: "Coconut palms across the cleared site under blue sky", label: "Palm Grove" },
