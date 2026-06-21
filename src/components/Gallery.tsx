@@ -25,8 +25,16 @@ import siteTrenchRebar from "@/assets/site-trench-rebar.jpg";
 import sitePerimeterCorner from "@/assets/site-perimeter-corner.jpg";
 import siteWallLandscaping from "@/assets/site-wall-landscaping.jpg";
 import siteCoconutGrove from "@/assets/site-coconut-grove.jpg";
+import sitePalmGroveClearing from "@/assets/site-palm-grove-clearing.jpg";
+import siteFoundationSlab1 from "@/assets/site-foundation-slab-1.jpg";
+import siteClearedPlot from "@/assets/site-cleared-plot.jpg";
+import siteFoundationSlab2 from "@/assets/site-foundation-slab-2.jpg";
 
 const images = [
+  { src: siteFoundationSlab1, alt: "Villa foundation slab with rebar ready for next phase", label: "Foundation Slab Ready" },
+  { src: siteFoundationSlab2, alt: "Wider view of villa foundation slab with neighbouring villas", label: "Foundation Overview" },
+  { src: sitePalmGroveClearing, alt: "Coconut palms across the cleared site under blue sky", label: "Palm Grove" },
+  { src: siteClearedPlot, alt: "Freshly cleared plot bordered by perimeter wall and palms", label: "Cleared Plot" },
   { src: siteTrenchRebar, alt: "Foundation trench with rebar reinforcement", label: "Foundation Trench & Rebar" },
   { src: sitePerimeterCorner, alt: "Completed perimeter wall corner", label: "Perimeter Wall Corner" },
   { src: siteWallLandscaping, alt: "Perimeter wall with new landscaping", label: "Wall Landscaping" },
